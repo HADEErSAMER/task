@@ -66,6 +66,11 @@
     height: 15px;
     width: 10px;
 }
+#inputdiv{
+    
+    height: 60px;
+    width: 450px;
+}
 
 @media screen and (max-width:600px){
     #infowrapperdiv{
@@ -110,5 +115,8 @@
     }
     #logoimg{
         width: 100px;
+    }
+    #inputdiv{
+        width: 350px;
     }
   }
