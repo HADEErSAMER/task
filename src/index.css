@@ -1,0 +1,41 @@
+@font-face {
+  font-family:"JosefinSans" ;
+  src: url(assets/Fonts/JosefinSans-Light.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family:"JosefinSans" ;
+  src: url(assets/Fonts/JosefinSans-SemiBold.ttf);
+  font-weight: bold;
+}
+
+
+
+
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "JosefinSans";
+  font-weight: normal;
+
+ 
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  
+  
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  
+}
+

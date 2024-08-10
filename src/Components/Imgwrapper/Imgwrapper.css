@@ -1,0 +1,21 @@
+#imgdiv{
+    width: 45%;
+    height: 100%;
+    }
+#girl{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:600px){
+          
+        
+    #girl{
+      width: 406px;
+      height: 200px;
+      position: absolute;
+      top: 60px;
+      
+    }
+  }

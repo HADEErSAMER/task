@@ -1,0 +1,114 @@
+#infowrapperdiv{
+    height: 100%;
+    width: 60%;
+    
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("bg-pattern-desktop.svg");
+    background-size: cover;
+    
+    background-color: hsl(0, 0%, 100%) ;
+}
+#we{
+    font-size: 70px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 5px;
+}
+.coming{
+    font-size: 55px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    
+    
+}
+#paragraph{
+    color:hsl(0, 36%, 70%);
+    height: 60px; 
+}
+#logodiv{
+   height: 120px;
+   width: 70%;
+    
+}
+#part2div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#inputfield{
+    height: 35px;
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid hsl(0, 7%, 76%) ;
+    position: relative;
+    
+    z-index: 2;
+} 
+#minibtn{
+    height: 39px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: hsl(0, 93%, 68%);
+    border: none;
+    position: relative;
+    right: 70px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 hsl(0, 93%, 68%), 0 6px 20px 0 hsl(0, 93%, 68%);
+    background: linear-gradient(to right,hsl(0, 79%, 81%),hsl(0, 92%, 66%));
+}
+#arrow{
+    height: 15px;
+    width: 10px;
+}
+
+@media screen and (max-width:600px){
+    #infowrapperdiv{
+      width: 100%;
+      height: 3000px;
+      padding: 10px;
+      
+
+     
+    }
+
+    #part2div{
+        width: 100%;
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+           
+    }
+    #paragraph{
+        height: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    #we{
+        font-size: 40px;
+    }
+    .coming{
+        font-size: 40px;
+    }
+    #logodiv{
+        height: 380px;
+    }
+    #inputfield{
+        width:300px;
+        left: 30px;
+        bottom: 20px;
+    }
+    #minibtn{
+     right: 30px;
+     width: 60px;
+     bottom: 20px;   
+    }
+    #logoimg{
+        width: 100px;
+    }
+  }
